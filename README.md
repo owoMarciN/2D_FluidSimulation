@@ -6,7 +6,7 @@
 - [Fluid Simulation for Dummies](https://mikeash.com/pyblog/fluid-simulation-for-dummies.html)
 
 As for now the code only works for **Windows Systems**. Please note that you need to download and install the SDL3 library and change the path to the SDL3 library directory in the `run.bat` file.
-```batch:run.bat
+```python:run.bat
 
 ```
 
