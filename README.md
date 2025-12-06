@@ -6,11 +6,10 @@
 - [Fluid Simulation for Dummies](https://mikeash.com/pyblog/fluid-simulation-for-dummies.html)
 
 As for now the code only works for **Windows Systems**. Please note that you need to download and install the SDL3 library and change the path to the SDL3 library directory in the `run.bat` file.
-```python filename="run.bat"
-
+```
+::-------------------------------------------------
+:: Change the path to your SDL3 directory if needed
+::-------------------------------------------------
+cmake -G "MinGW Makefiles" -S . -B dist -DSDL3_DIR=D:\example_path_to_SDL3_directory
 ```
 
-And, you can refer specific lines as
-```python:tests/src/sample.py [4-5]
- 
-```
